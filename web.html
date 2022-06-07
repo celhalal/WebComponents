@@ -8,7 +8,10 @@
 </head>
 <body>
     <h2>Hi there!</h2>
-    <my-product name = "Headphones" ></my-product>
+    <my-product name = "Headphones" >
+        <h2>text (child of the web component or custom element -> alter template to show on the web page)</h2>
+        <div slot="price">$19.99</div>
+    </my-product>
     <button onclick="changeProduct()">Change Product</button>
     <button onclick="changeProductBack()">Change Product Back</button>
     <link rel='stylesheet' type="text/css" href="design.css">
